@@ -7,5 +7,5 @@ sudo DEBIAN_FRONTEND=noninteractive \
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'
 sudo systemctl disable lightdm.service
 #firefox
-sudo DEBIAN_FRONTEND=noninteractive add-apt-repository ppa:mozillateam/ppa
+sudo DEBIAN_FRONTEND=noninteractive add-apt-repository ppa:mozillateam/ppa -y
 sudo apt install firefox-esr -y
